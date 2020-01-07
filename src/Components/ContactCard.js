@@ -19,7 +19,7 @@ class ContactCard extends React.Component {
                 <h3>{this.state.name}</h3>
                 <span>Mobile</span><p>{this.state.mobileNumber}</p>
                 <span>Work</span><p>{this.state.workNumber}</p>
-                <span>Mobile</span><p>{this.state.email}</p>
+                <span>Email</span><p>{this.state.email}</p>
             </div>
         )
     }
