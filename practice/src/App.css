@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.Contact-Cards{
+  display: flex;
+  flex-direction: row;
+}
