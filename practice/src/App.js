@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ContactCard from './Components/ContactCard'
+import Decrement from './Components/Decrement'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             workNumber={'124-233-5435'}
             email={'rob@gmail.com'}    
           />
+          <Decrement count={5} />
         </div>
     </div>
   );

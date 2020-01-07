@@ -1,27 +1,35 @@
 import React from 'react';
-import PropTypes from 'react'
-
+import PropTypes from 'prop-types'
 
 class Decrement extends React.Component {
     constructor(props) {
+        super(props)
         this.state = {
             count: props.count
         }
     }
 
+    decrement = () => {
+        if (this.state.count === 0) {
+            alert('Cannot be less than zero')
+        } else {
+            this.setState({ count: this.state.count - 1 })
+        }
+
+    }
     render() {
-        <div>
-            <p>{this.props.name}</p>
-            <p>{this.props.mobileNumber}</p>
-            <p>{this.props.workNumber}</p>
-            <p>{this.props.email}</p>
-        </div>
+        return (
+            <div>
+                <h1>{this.state.count}</h1>
+                <button onClick={this.decrement}>Decrement</button>
+            </div>
+        )
     }
 }
 
-ContactCard.PropTypes = {
-    count: PropTypes.number.isRequired
-}
+Decrement.propTypes = {
+    count: PropTypes.number.isRequired,
+} 
 
 
-export default ContactCard;
+export default Decrement;
