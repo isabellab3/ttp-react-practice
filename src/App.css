@@ -41,9 +41,9 @@
   }
 }
 
-.Contact-Cards{
+.Contact-Cards {
   display: flex;
-  flex-direction: row;
+  margin: 20px;
 }
 
 .Decrement {

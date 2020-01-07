@@ -33,4 +33,4 @@ Decrement.propTypes = {
 } 
 
 
-export default Decrement;
+export default Decrement

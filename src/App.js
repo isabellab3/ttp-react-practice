@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ContactCard from './Components/ContactCard'
 import Decrement from './Components/Decrement'
@@ -16,20 +15,20 @@ function App() {
         />
         <ContactCard
           name={'Tom'}
-          mobileNumber={'123-456-7890'}
+          mobileNumber={'444-666-7891'}
           workNumber={'678-901-2345'}
           email={'tom@email.com'}    
         />
         <ContactCard
           name={'Robert'}
-          mobileNumber={'123-532-1233'}
+          mobileNumber={'123-532-8008'}
           workNumber={'124-233-5435'}
           email={'rob@gmail.com'}    
         />
       </div>
       <Decrement count={5} />
     </div>
-  );
+  )
 }
 
 export default App;
