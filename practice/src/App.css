@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -40,4 +44,8 @@
 .Contact-Cards{
   display: flex;
   flex-direction: row;
+}
+
+.Decrement {
+  background-color: white;
 }

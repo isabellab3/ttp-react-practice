@@ -16,10 +16,10 @@ class ContactCard extends React.Component {
     render() {
         return (
             <div className="Contact-Card">
-                <p>{this.state.name}</p>
-                <p>{this.state.mobileNumber}</p>
-                <p>{this.state.workNumber}</p>
-                <p>{this.state.email}</p>
+                <h3>{this.state.name}</h3>
+                <span>Mobile</span><p>{this.state.mobileNumber}</p>
+                <span>Work</span><p>{this.state.workNumber}</p>
+                <span>Mobile</span><p>{this.state.email}</p>
             </div>
         )
     }
