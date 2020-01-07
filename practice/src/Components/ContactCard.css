@@ -1,5 +1,10 @@
 .Contact-Card {
-    border: 1px black solid;
-    padding: 10px;
-
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
 }
+
+

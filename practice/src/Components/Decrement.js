@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'
+import './Decrement.css'
 
 class Decrement extends React.Component {
     constructor(props) {
@@ -10,16 +11,16 @@ class Decrement extends React.Component {
     }
 
     decrement = () => {
-        if (this.state.count === 0) {
+        if (this.state.count <= 0) {
             alert('Cannot be less than zero')
         } else {
             this.setState({ count: this.state.count - 1 })
         }
-
     }
+
     render() {
         return (
-            <div>
+            <div className="Decrement">
                 <h1>{this.state.count}</h1>
                 <button onClick={this.decrement}>Decrement</button>
             </div>
