@@ -10,6 +10,10 @@
 
 
 span {
-    color:(210, 235, 171);
+    color: rgb(159, 194, 103);
     font-weight: 700;
+}
+
+h3 {
+    color: rgb(159, 194, 103);
 }

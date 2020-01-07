@@ -6,6 +6,7 @@ import Decrement from './Components/Decrement'
 function App() {
   return (
     <div className="App">
+      <h1>Contact Cards:</h1>
       <div className="Contact-Cards">
         <ContactCard
           name={'Jessica'}
@@ -26,6 +27,7 @@ function App() {
           email={'rob@gmail.com'}    
         />
       </div>
+      <h1>Decrement:</h1>
       <Decrement count={5} />
     </div>
   )
